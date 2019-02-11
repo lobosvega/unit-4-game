@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">        
+    
+    <title>Sons of Horus </title>
+
+</head>
+
+<body>
+
+    <div id="firstScreen" class="bg-trans container-fluid">
+
+        <div class="container text-center">
+            <img class="img-fluid" src="./assets/images/logo.png" alt="SONS OF HORUS" />
+            <h7 style="color: white; font-family: 'Julius Sans One', sans-serif; font: size 8;">
+            <br>
+                Choose your player:
+            <br>
+            <br> 
+        </div>    
+        <div>
+
+        <div id="game" class="ctr container card-deck"></div>
+
+        </div>  
+    </div>            
+    
+ 
+    <div id="secondScreen" class="bg-trans container-fluid">
+        <div class="row text-center paddingTop">
+            <div class="col-5">
+                PLAYER 1
+                <div class="container" style="width: 30%;">
+                    <div id="playerDiv"></div>
+                    <div id="playerHealthDiv"></div>
+                </div>
+            </div>
+            <div class="col-2 paddingTop">
+                <!-- VS. -->
+                <img src="assets/images/Versus.png" alt="VS" width="100" />
+            </div>
+            <div class="col-5">
+                PLAYER 2
+                <div class="container">
+                    <div id="defenderDiv"></div>
+                    <div id="defenderHealthDiv"></div>
+                </div>
+          </div>
+        </div>
+      <div class="row">
+            <div class="col-12 ctr">
+                <div id="defendersLeftDiv"></div>
+            </div>
+            </div>
+
+        <!-- holds the button -->
+        <div class="row">
+            <div class="col-12 btn">
+                <div id="msg"></div>
+                <br>
+                <button type="button" name="attack" id="attack-Btn" class="attack-Btn">ATTACK!</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div id="globalMsg" 
+                CONGRATULATIONS!
+            </br>
+                You WIN.
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
+    <script src="./assets/javascript/game.js "></script>
+</body>
+
+</html>

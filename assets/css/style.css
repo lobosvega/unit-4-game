@@ -1,0 +1,66 @@
+
+
+#firstScreen {
+.
+    color: white;
+    background-color: black;
+}
+
+#secondScreen {
+
+    color: white;
+    background-color: black;
+
+}
+
+#attack-btn {
+
+    outline: none;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0 4px black;
+}
+
+#attack-btn:hover {
+
+    box-shadow: 0 2px black;
+    top: 2px;
+}
+
+#attack-btn:active {
+
+    box-shadow: 0 0 gray;
+    top: 6px;
+}
+
+#palceholder-section {
+
+    background-color: aquamarine;
+
+}
+
+
+#placeholders {
+
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
